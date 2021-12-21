@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title%}
+View Employee
+{% endblock %}
+{% block content %}
+<div class="alert alert-dark text-center m-5" role="alert">
+    <h1 class="text-center"><u>Employee Information</u></h1>
+ 
+<h4><b>Name:</b> {{emp.name}}</h4>
+<h4><b>Email:</b> {{emp.email}}</h4>
+<h4><b>location:</b> {{emp.location}}</h4>
+<h4><b>dept:</b> {{emp.dept}}</h4>
+</div>
+{% endblock %}
